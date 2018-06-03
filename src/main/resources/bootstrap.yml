@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    reporting-api:
+      path: "/reporting/**"
+      url: "http://localhost:8090"
+    processing-api:
+      path: "/processing/**"
+      url: "http://localhost:8091"
